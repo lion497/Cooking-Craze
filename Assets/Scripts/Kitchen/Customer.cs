@@ -13,10 +13,11 @@ namespace CookingPrototype.Kitchen {
 		public List<Sprite>             CustomerSprites = null;
 		public Image                    TimerBar        = null;
 		public List<CustomerOrderPlace> OrderPlaces     = null;
+		public CustomerPlace            CustomerPlace   = null;
 
 		const string ORDERS_PREFABS_PATH = "Prefabs/Orders/{0}";
 
-		List<Order> _orders   = null;
+		public List<Order> _orders   = null;
 		float       _timer    = 0f;
 		bool        _isActive = false;
 

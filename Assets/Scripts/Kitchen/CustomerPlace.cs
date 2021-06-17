@@ -8,6 +8,7 @@ namespace CookingPrototype.Kitchen {
 
 		public void PlaceCustomer(Customer customer) {
 			CurCustomer = customer;
+			customer.CustomerPlace = this;
 			customer.transform.SetParent(transform);
 			customer.transform.localPosition = Vector3.zero;
 		}
