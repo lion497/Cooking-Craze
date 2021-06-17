@@ -169,6 +169,7 @@ namespace CookingPrototype.Controllers {
 				{
 					minTimeCustomerPlace.Free();
 				}	
+				return true;
 			}
 			return false;
 		}
